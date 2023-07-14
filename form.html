@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <form action="./insert.php" method="post">
+            <p>Name: <input type="text" name="fname" required placeholder="first name" id="firstname"></p>
+            <p>Sur Name: <input type="text" name="lname" required placeholder="last name" id="lastname"></p>
+            <p>E-mail: <input type="email" name="email" required placeholder="email" id="email"></p>
+            <p>website: <input type="website" name="website" required placeholder="website" id="website"></p>
+            <p>Address: <input type="text" name="address" required placeholder="address" id="addres"></p>
+            <p>Gender: <input type="radio" name="gender" value="Female" id="female">Female <input type="radio" value="Male"
+                    name="gender" id="male">Male <input type="radio" value="Others" name="gender" id="others">Others</p>
+            <button type="submit" name="submit" id="submit">Register Now</button>
+        </form>
+        <button><a href="index.html">BACK TO HOME</a></button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

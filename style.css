@@ -1,0 +1,78 @@
+table,td, th, tr {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding-top: 10px;
+     padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+/* table{
+    width: 100px;
+}  */
+
+.container{
+    width: 725px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.main{
+    background: #c2c0c0;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 80%);
+    padding: 32px;
+    margin-top: 80px;
+    margin-left: 500px;
+    width: 550px;
+}
+form {
+    text-align: center;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    margin-left: 35px;
+    /* padding: 10px 10px 10px 10px ; */
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 5px;
+    /* border-color: cornflowerblue; */
+
+    
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(130, 130, 202);
+    color: rgb(255, 251, 251);
+}
+.butn{
+  margin-left: 600px;
+  margin-top: 60px;
+}
+a{
+    text-decoration: none;
+    /* color: white; */
+}
+h1{
+    margin-left: 680px;
+    color: rgb(47, 0, 91);  
+}
+input{
+    padding: 5px 5px 5px 5px;
+    margin-left: 80px;
+}
+button{
+    padding:4px 4px 4px 4px ;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+button.form{
+    font-size: 23px;
+}
+button.grid{
+    font-size: 20px;
+    position: relative;
+    bottom: 2px;
+}
